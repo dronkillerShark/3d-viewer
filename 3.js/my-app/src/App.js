@@ -84,7 +84,7 @@ loader.load(
   }
 );
 camera.position.z = 5;
-const renderer = new THREE.WebGLRenderer({ antialias: false });
+const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setPixelRatio(window.devicePixelRatio * 0.5);
 renderer.setSize(window.innerWidth / 2, window.innerHeight / 2);
 document.body.appendChild(renderer.domElement);
